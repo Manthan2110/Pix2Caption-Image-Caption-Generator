@@ -53,9 +53,9 @@ with st.sidebar:
 def load_all_models_local():
     """Load models and tokenizer from the local directory."""
     try:
-        caption_model = load_model("models/caption_model_.keras")
-        feature_extractor = load_model("models/feature_extractor_.keras")
-        with open("models/tokenizer_.pkl", "rb") as f:
+        caption_model = load_model("models/caption_model.keras")
+        feature_extractor = load_model("models/feature_extractor.keras")
+        with open("models/tokenizer.pkl", "rb") as f:
             tokenizer = pickle.load(f)
         return caption_model, feature_extractor, tokenizer
     except Exception as e:
