@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#28D9A6"           # bright teal-green accent
+backgroundColor = "#121821"        # deep blue-gray
+secondaryBackgroundColor = "#1C2430"  # muted navy gray
+textColor = "#E8E8E8"        # light gray text
+font = "sans serif"          # clean, modern sans-serif font
+base = "dark"                # overall dark theme
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
