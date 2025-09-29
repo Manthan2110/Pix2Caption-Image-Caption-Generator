@@ -13,6 +13,8 @@ Manually describing large numbers of images is tedious and inconsistent.
 
 ## 🌐 Live Demo  
 Visit the deployed Streamlit app to upload any image and get an instant AI-generated caption.
+
+
 https://pix2caption-image-captioning.streamlit.app/
 
 ---
@@ -33,6 +35,7 @@ https://pix2caption-image-captioning.streamlit.app/
 User Image ➡️ Feature Extractor (DenseNet-201 CNN)
              ➡️ LSTM Decoder with Tokenizer
              ➡️ Word-by-word Caption Generation
+```
 ---
 
 ## Project files
@@ -49,15 +52,15 @@ User Image ➡️ Feature Extractor (DenseNet-201 CNN)
 --- 
 ## 🔐 Technologies Used
 
-🧠 TensorFlow / Keras – Model building & training
+- 🧠 TensorFlow / Keras – Model building & training
 
-🖼️ DenseNet-201 – Pretrained CNN encoder
+- 🖼️ DenseNet-201 – Pretrained CNN encoder
 
-🔁 LSTM – Text sequence decoder
+- 🔁 LSTM – Text sequence decoder
 
-📦 Streamlit – Interactive web UI
+- 📦 Streamlit – Interactive web UI
 
-🐍 Python – NumPy, Pillow, Pickle, etc.
+- 🐍 Python – NumPy, Pillow, Pickle, etc.
 ---
 
 ## 🚀 Installation & Setup
@@ -112,14 +115,8 @@ The generated caption is displayed and available for download.
 
 Made with ❤️ by Manthan Jadav
 
-LinkedIn
-
-GitHub
-
-📧 manthanjadav746@gmail.com
-
 --- 
-##📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
 Feel free to fork, modify, and share!
